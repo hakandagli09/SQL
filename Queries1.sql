@@ -11,7 +11,7 @@ Describe offices;
 /*1.	Prepare a list of offices sorted by country, state, city.*/
 SELECT country, state, city
 	FROM offices
-		ORDER BY country;
+		ORDER BY country, state, city;
 
 /*2.	How many employees are there in the company?*/
 SELECT count(employeeNumber)
